@@ -1,27 +1,22 @@
 {
   "name": "shivangi-digital-library",
   "version": "1.0.0",
-  "description": "Premium online seat booking and management system",
+  "description": "Shivangi Digital Library - Online seat reservation and management system with MongoDB Atlas persistence and secure admin dashboard.",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
+  "private": true,
   "engines": {
     "node": "24.x"
   },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "express": "^4.21.0",
+    "express": "^4.19.2",
     "express-rate-limit": "^7.4.0",
-    "helmet": "^8.0.0",
+    "helmet": "^7.1.0",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.7.0"
-  },
-  "keywords": [
-    "library",
-    "booking",
-    "seat-reservation",
-    "claymorphism"
-  ],
-  "author": "Shivangi Digital Library"
+    "mongoose": "^8.5.1"
+  }
 }
